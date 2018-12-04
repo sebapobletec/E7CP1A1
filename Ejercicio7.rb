@@ -3,7 +3,7 @@ inventario = {"Notebooks": 4, "PC Escritorio": 6, "Routers": 10, "Impresoras": 6
 menu = 1
 
 while menu!=7  do
-print "Ingresa una opción: \n 1. Agregar un ítem\n 2. Eliminar un ítem\n 3. Actualizar información\n 4. Ver el stock\n 5. Item con mayor stock\n 6. Consultar por producto\n 7. Salir "
+print "Ingresa una opción: \n 1. Agregar un ítem\n 2. Eliminar un ítem\n 3. Actualizar información\n 4. Ver el stock\n 5. Item con mayor stock\n 6. Consultar por producto\n 7. Salir\n \n 8. Imprime el inventario "
 menu = gets.chomp.to_i
 
 if menu == 1
